@@ -1,0 +1,199 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight:bolder;
+    width: 500px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    color: #1f1f1f;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    color: #1f1f1f;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p {
+    color: rgb(80, 83, 83);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.container-fluid {
+    padding: 3% 15% 8%;
+}
+
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0 18px;
+}
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* features section */
+
+#features {
+    background-color:white;
+    padding: 10% 15%;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.testimonials-image {
+    width: 12%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 0% 2%;
+}
+
+
+/* pricing section */
+
+.pricing-heading {
+    text-align: center;
+}
+
+#pricing {
+    padding:100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    text-align: center;
+    max-width: 500px;
+    margin-left: 50px;
+}
+
+.card {
+    height: 100%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* download section  */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10% 3%;
+
+}
+
+.cta-heading {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+/* footer section  */
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 10% 2%;
+}
+
+.footer-icon {
+    color: #000000;
+    margin: 4rem 2rem;
+}
+
+.footer-icon:hover{
+    color: #ff4c68;
+}
+
+.footer-name {
+    font-size: 1rem;
+}
+
+span {
+    color: red;
+}
