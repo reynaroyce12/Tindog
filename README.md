@@ -1,2 +1,2 @@
 # Tindog
-Intro Project on Bootstrap
+Introduction to Bootstrap
