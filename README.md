@@ -1,2 +1,0 @@
-# Tindog
-Introduction to Bootstrap
